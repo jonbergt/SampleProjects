@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Contact Us at Skooba-Faux-U</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="/skooba-Faux-U/style1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="header">
+		<div id="sitebranding">
+			<h1>Skooba-Faux-U.com</h1>
+		</div>
+
+		<div id="tagline">
+			<p>The Mid-Mississippi Valley Diving Club - get to the bottom of Mark Twain's world!</p>
+		</div>
+	</div><!-- END header -->
+	<div id="navigation">
+		<ul>
+			<li><a href="http://localhost/skooba-Faux-U/">Home</a></li>
+			<li><a href="http://localhost/skooba-Faux-U/about/">About Us</a></li>
+			<li><a href="http://localhost/skooba-Faux-U/events/">Club Events</a></li>
+			<li><a href="http://localhost/skooba-Faux-U/contact/">Contact Us</a></li>
+
+		</ul>
+	</div><!-- END navigation -->
+	<div id="bodycontent">
+
+		<h2>Contact Us</h2>
+      <p>To let us know about a forthcoming dive event, please use the form below.
+      </p>
+      <form action="/skooba-Faux-U/contact/" method="post" class="contact">
+         <fieldset>
+            <legend>Tell Us About a Dive Event</legend>
+            <p>
+               <label for="contactname" class="fixedwidth">Contact Name</label>
+               <input type="text" name="contactname" id="contactname" />
+            </p>
+            <p>
+               <label for="telephone" class="fixedwidth">Telephone Number</label>
+               <input type="text" name="telephone" id="telephone" />
+            </p>
+            <p>
+               <label for="email" class="fixedwidth">Email Address</label>
+               <input type="text" name="email" id="email" />
+            </p>
+            <p>
+               <label for="eventname" class="fixedwidth">What's the event called?</label>
+               <input type="text" name="eventname" id="eventname" />
+            </p>
+            <p>
+               <label for="eventdate" class="fixedwidth">When's the event happening?</label>
+               <input name="eventdate" id="eventdate" type="text" />
+            </p>
+            <p>
+               <label for="region" class="fixedwidth">Where will the event happen?</label>
+               <select name="region" id="region">
+                  <option>South-west</option>
+                  <option>South-east</option>
+                  <option>Midlands</option>
+                  <option>Central</option>
+                  <option>London</option>
+                  <option>East</option>
+                  <option>North</option>
+                  <option>Scotland</option>
+                  <option>Northern Ireland</option>
+                  <option>Wales</option>
+                  <option>International (see details below)</option>
+               </select>
+            </p>
+            <div>
+               <p>Please provide any other details you think will be useful to us in
+                  the text area below (it may save us calling or emialing you, and help avoid delays).
+               </p>
+               <label for="details" class="fixedwidth">More details (as much as you think we'll 
+                  need!)
+               </label>
+               <textarea id="details" name="details" cols="30" rows="7"></textarea>
+            </div>
+            <div class="permissions">
+               <p>If we need to call you back for any more info, what would be the best time to call
+                  you on the number supplied?
+               </p>
+               <input name="timetocall" id="morning" value="morning" type="radio" />
+               <label for="morning">In the morning</label>
+               <br />
+               <input name="timetocall" id="afternoon" value="afternoon" type="radio" />
+               <label for="afternoon">In the afternoon</label>
+               <br />
+               <input name="timetocall" id="evening" value="evening" type="radio" />
+               <label for="evening">In the evening</label>
+               <br />
+               <input name="timetocall" id="never" value="never" checked="checked" 
+                  type="radio" />
+               <label for="never">Do Not Call</label>
+            </div>
+            <div class="permissions">
+               <p>Skooba-Faux-U may share information you give us here with other like-minded 
+                  peope or web sites to promote the event.  Please confirm if you are happy 
+                  for us to do this.
+               </p>
+               <input name="publicize" id="publicize" checked="checked" type="checkbox"
+                  checked="checked" />
+               <label for="publicize">I am happy for this event to be publicized outside of 
+                  and beyond Skooba-Faux-U.com, wherever necessary.
+               </label>
+            </div>
+            <div class="buttonarea">
+               <input type="submit" value="Send Info" />
+            </div>
+         </fieldset>
+      </form>         
+		<p>If you need to get in touch urgently, please call Bob Limadoba at 999-999-9999.  
+         For anything else, please <a href="mailto:bob@Skooba-Faux-U.com.">drop us a line by email.</a> 
+		</p>
+
+	</div><!-- END bodycontent -->
+
+</body>
+</html>

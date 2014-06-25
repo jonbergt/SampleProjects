@@ -1,0 +1,205 @@
+/*
+CSS for Skooba-faux-U site
+*/
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #e2edff;
+  line-height: 125%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-weight: x-large;
+  background: navy url(backgrounds/header-bg.jpg) no-repeat right;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: .2em;
+  padding-left: .4em;
+  margin: 0;
+}
+h2 {
+  color: navy;
+  font-size: 130%;
+  font-weight: normal;
+  padding-top: 15px;
+ }
+h2, ul {
+	margin-top: 15px;
+}
+li {
+  font-size: small;
+  list-style-type: none;
+}
+
+p {
+  font-size: small;
+  color: navy;
+}
+#tagline p {
+	font-style: italic;
+	font-family: Georgia, Times, serif;
+	background: #bed8f3 url(backgrounds/tagline-fade.jpg) repeat-y right;
+	border-top: 3px solid #7da5d8;
+	border-bottom: 3px solid #7da5d8;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	padding-left: .8em;
+	margin: 0;
+}
+em {
+	text-transform:uppercase;
+}
+a {
+	font-weight:bold;
+}
+a:link {
+		color:black;
+}
+a:visited {
+	color:navy;
+}
+a:hover {
+	text-decortation:none;
+	background-color:navy;
+	color:white;
+}
+a:active {
+	color:aqua;
+	background-color:navy;
+}
+
+.fun {
+	color:#339999; 
+	font-family:Georgia, Times, serif; 
+	letter-spacing:0.08em;
+}
+.fun p{
+	color:green;
+}
+blockquote.fun {
+	font-style:italic;
+}
+.feature  {
+	float: right;
+	margin: 10px;
+}
+#navigation {
+	width: 180px;
+	height: 484px;
+	background: #7da5d8 url(backgrounds/nav-bg.jpg) no-repeat;
+}
+
+/*
+ * POSITIONING rules; ABSOLUTE from top left
+ */
+#navigation, #bodycontent, #header {
+	position: absolute;
+}
+#navigation, #bodycontent  {
+	top: 122px;
+	/* top: 7.5em; */
+}
+#header, #tagline  {
+	width: 100%;
+}
+#header  {
+	border-top: 3px solid #7da5db;
+}
+#bodycontent  {
+	left: 200px;
+}
+
+/*
+ * TABLE styles
+ */
+table.events  {
+   width: 650px;
+	border-collapse: collapse;
+}
+table.events caption  {
+	color: #000066;
+	font-size: small;
+	text-align: left;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+table.events th, table.events td  {
+	padding: 4px;
+	border: 1px solid #000066;
+}
+table.events th  {
+	font-size: x-small;
+	text-align: left;
+	background: #bed8f3 url(backgrounds/th-fade.jpg) repeat-y left;
+	color: #ffffff;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+table.events td  {
+	font-size: small;
+	background: #e2edff url(backgrounds/td.jpg) repeat-x top;
+}
+
+/*
+ * Form styles
+ */
+form.contact  {
+   padding: 0;
+   margin: 0;
+   margin-top: -18px;
+   line-height: 150%;
+}
+form.contact fieldset  {
+   border: 2px solid navy;
+   padding: 10px;
+}
+form.contact legend  {
+   font-weight: bold;
+   font-size: small;
+   color: navy;
+   padding: 5px;
+}
+form.contact label  {
+   font-weight: bold;
+   font-size: small;
+   color: blue;
+}
+form.contact label.fixedwidth  {
+   display: block;
+   width: 240px;
+   float: left;
+}
+form.contact .permissions p {
+   font-style: italic;
+}
+form.contact .buttonarea  {
+   text-align: center;
+   padding: 4px;
+   background-color: #5e7dfd;
+}
+form.contact .buttonarea input  {
+   background: navy;
+   color: white;
+   font-weight: bold;
+   padding: 5px;
+   border: 1px solid white;
+}
+#details  {
+   font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+/*
+ * Temporary borders for page arrangement
+ *
+ *#header, #sitebranding, #tagline, #navigation, #bodycontent {
+	border: 1px solid red;
+	padding: 2px;
+	margin-bottom: 2px;
+ *}
+*/
