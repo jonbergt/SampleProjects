@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body>
+	<div id="header">
+		<div id="sitebranding">
+			<h1>Skooba-Faux-U-cs.com</h1>
+		</div>
+		<div id="tagline">
+			<p>The Mid-Mississippi Valley Diving Club - get to the bottom of Mark Twain's world!
+			</p>
+		</div>
+	</div><!-- END header -->
+	<div id="navigation">
+		<ul>
+			<li><a runat="server" href="~/">Home</a></li>
+			<li><a runat="server" href="~/about/about.aspx">About Us</a></li>
+			<li><a runat="server" href="~/events/events.aspx">Club Events</a></li>
+			<li><a runat="server" href="~/contact/contact.aspx">Contact Us</a></li>
+		</ul>
+	</div><!-- END navigation -->
+	<div id="bodycontent">
+        <asp:ContentPlaceHolder ID="BodyContent" runat="server"></asp:ContentPlaceHolder>
+	</div><!-- END bodycontent -->
+</body>
+</html>
