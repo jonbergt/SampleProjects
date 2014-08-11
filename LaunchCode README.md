@@ -17,5 +17,5 @@ Please consider then, the 3rd folder in sequence below as the "target" or curren
 
 2.Skooba-Faux-U - this next step also from a few years ago, represents the same basic HTML code/appearance as the BubbleUnder website from #1, but I added my own back-end design for PHP/MySQL functionality and database access, and renamed the fictional "diving club" to Skooba-Faux-U.
 
-3.Skooba-Faux-U-cs - ("...-cs" for C Sharp) this represents the CURRENT project still based on the original HTML/appearance but maintaining my added database and code only now fully redesigned for SQLServer (instead of MySQL) with the PHP code restated (and somewhat redesigned) in C#.NET code.
+3.Skooba-Faux-U-cs - ("...-cs" for C Sharp) this represents the CURRENT project still based on the original HTML/appearance but maintaining my added database and code only now fully redesigned for SQLServer (instead of MySQL) with the PHP code restated (and somewhat redesigned) in C# and ASP.NET code.
 
